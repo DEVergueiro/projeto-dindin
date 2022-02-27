@@ -110,7 +110,7 @@ hr {
 }
 .image-card {
     display: flex;
-    width: 380px;
+    
     padding: 3%;
 }
 .texto-card {
