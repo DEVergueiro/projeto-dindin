@@ -273,6 +273,11 @@ banner p {
     margin: 0;
 }
 
+#maisconteudo a {
+    text-decoration: none;
+    color: initial;
+}
+
 #maisconteudo h1{
     color: #009688;
     text-align: left;
