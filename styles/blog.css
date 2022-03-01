@@ -140,6 +140,11 @@ footer {
     margin: 10px 20px;
 }
 
+
+.menu-foot {
+    text-align: left;
+}
+
 .botoes {
     align-items: left;
     text-align: left;
