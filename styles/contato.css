@@ -11,15 +11,20 @@ body {
 
 /* HEADER */
 
-.container-logo {
+header {
   background-color:#2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.container-logo {
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   align-content: center;
   text-align: center;
-  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+  
   }
 
 .logo {
@@ -118,6 +123,10 @@ input, textarea::-webkit-input-placeholder {
   padding: 3%;
 }
 
+textarea::placeholder {
+  color: #58555D;
+}
+
 .button-contato { 
   border-style: none;
   background-color: #FF4081;
@@ -213,24 +222,38 @@ footer {
 /* RESPONSIVIDADE */
 
 @media (max-width: 1000px) {
-  .image-contato {
-    display: none;
-  }
-  textarea {
-    height: 300px;
-  }
-      /* HEADER E FOOTER */
-      .menu-item-link {
-        font-size: 30px;
-    }
 
-    .menu-item-link2 {
-        font-size: 25px;
-    }
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10% 0;
+}
+  
+main {
+  margin: 5% 0;
+} 
+
+.image-contato {
+    margin: 0 auto;
+    padding: 0;
+    align-content: center;
+  }
+ 
+textarea {
+  height: 300px;
+}
+      /* HEADER E FOOTER */
+.menu-item-link {
+  font-size: 30px;
+}
+
+.menu-item-link2 {
+  font-size: 25px;
+}
      
-    .button {
-        font-size: 22px;
-        height: 50px;
-        width: 300px;
-    }
+.button {
+  font-size: 22px;
+  height: 50px;
+  width: 300px;
+  }
 }
