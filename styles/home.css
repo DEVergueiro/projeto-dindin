@@ -224,8 +224,8 @@ banner p {
       
 .button-section01:hover {
     transition: .5 all;
-    background-color: #FFFFFF;
-    color: #FF4081;
+    background-color: hsl(340, 100%, 50%);
+    color: #ffffff;
 }
 
 /* SEÇÃO 02 */
@@ -360,4 +360,86 @@ banner p {
     transition: .5 all;
     background-color: #FF4081;
     color: #F6F6F6;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1000px) {
+    .image-banner {
+      height: 300px;
+    }
+
+    banner p {
+        font-size: 25px;
+    }
+
+    .button-banner {
+        font-size: 25px;
+    }
+
+    .image-card {
+      display: none;
+    }
+
+    .card-section1 {
+        width: 250px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card-section1 h3 {
+        font-size: 35px;
+    } 
+
+    .card-section1 p {
+        font-size: 25px;
+    }
+
+    .depoimento01 p {
+        font-size: 30px;
+    }
+    
+    .depoimento01{
+        display: flex;
+        width: 100%;
+        text-align: left;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .tres {
+        width:200px;
+        height:115px;
+        background-color: #C4C4C4;
+        margin: 10px 0;
+    }
+
+    .nav01 {
+        width: 250px;
+        padding-bottom: 0;
+    }
+    
+    .nav01 p {
+        display: none;
+    }
+
+    .button-nav {
+        font-size: 25px;
+        padding-top: 0;
+    }
+
+    /* HEADER E FOOTER */
+    .menu-item-link {
+        font-size: 30px;
+    }
+
+    .menu-item-link2 {
+        font-size: 25px;
+    }
+     
+    .button {
+        font-size: 22px;
+        height: 50px;
+        width: 300px;
+    }
 }

@@ -252,6 +252,37 @@ banner p {
   margin: 0 auto;
   height: 381px;
   width: 380px;
-  padding: 0 5%;
-  
+  padding: 0 5%; 
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1000px) {
+  .image-banner {
+    display: none;
+  }
+  banner div {
+    width: calc(100vw);
+  }
+  banner p {
+    display: none;
+  }
+  .texto-card p{
+    font-size: 25px;
+  }
+
+      /* HEADER E FOOTER */
+      .menu-item-link {
+        font-size: 30px;
+    }
+
+    .menu-item-link2 {
+        font-size: 25px;
+    }
+     
+    .button {
+        font-size: 22px;
+        height: 50px;
+        width: 300px;
+    }
 }

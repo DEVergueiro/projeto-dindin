@@ -223,3 +223,48 @@ banner h2 {
         background-color: #C4C4C4;
         margin: 5% 0;    
 }
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1000px) {
+    
+    main p {
+        font-size: 25px;
+    }
+
+    main h3 {
+        font-size: 35px;
+    }
+
+    .image-card {
+        display: none;
+      }
+  
+      .card-section1 {
+          width: 250px;
+          margin: 0;
+          padding: 0;
+      }
+  
+      .card-section1 h3 {
+          font-size: 35px;
+      } 
+  
+      .card-section1 p {
+          font-size: 25px;
+      }
+        /* HEADER E FOOTER */
+        .menu-item-link {
+          font-size: 30px;
+      }
+  
+      .menu-item-link2 {
+          font-size: 25px;
+      }
+       
+      .button {
+          font-size: 22px;
+          height: 50px;
+          width: 300px;
+      }
+  }

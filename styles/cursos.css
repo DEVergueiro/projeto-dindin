@@ -147,8 +147,8 @@ hr {
       
 .button2:hover {
     transition: .5 all;
-    background-color: #FFFFFF;
-    color: #2E948A;
+    background-color: #00e0caf3;
+    color: #fff;
 }
 
   /* FOTTER */
@@ -222,4 +222,54 @@ footer {
     transition: .5 all;
     background-color: #FFFFFF;
     color: #2E948A;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1000px) {
+    .image-card , .image-card1{
+      display: none;
+    }
+
+    main h2 {
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+    }
+
+    main p {
+        font-size: 25px;
+    }
+
+    .cursos-card {
+        margin: 0;
+        padding: 0;
+    }
+
+    .button2 {
+        font-size: 25px;
+    }
+
+    main h1 {
+        font-size: 55px;
+    }
+
+    main h3 {
+        font-size: 25px;
+    }
+
+        /* HEADER E FOOTER */
+        .menu-item-link {
+            font-size: 30px;
+        }
+    
+        .menu-item-link2 {
+            font-size: 25px;
+        }
+         
+        .button {
+            font-size: 22px;
+            height: 50px;
+            width: 300px;
+        }
 }
